@@ -1,0 +1,21 @@
+.portfolio-contenedor {
+    margin: auto;
+}
+
+.portfolio-titulo {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto 40px;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.portfolio-item {
+    width: 30%;
+}

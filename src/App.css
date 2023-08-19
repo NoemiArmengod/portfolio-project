@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  background-color: #0F172A;
+  color: #B8C3E0;
+  line-height: 1.5;
+}
+
+.App {
+  width: 1200px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 40px auto;
+}
+
+a {
+  color: #9DC1FB;
+}
+
+a:hover,
+a:focus {
+  color: #AD9DFB;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+img {
+  width: 100%;
+}

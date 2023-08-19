@@ -1,0 +1,35 @@
+.presentacion-contenedor {
+    width: 800px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+.presentacion-datos-personales {
+    margin-bottom: 40px;
+}
+
+.presentacion-datos-personales a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.iconos-rrss {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.iconos-rrss a {
+    font-size: 25px;
+}
+
+.presentacion-introduccion p {
+    margin-bottom: 20px;
+}
+
+.parrafo-destacado {
+    font-weight: 700;
+    color: #9DC1FB;
+}
