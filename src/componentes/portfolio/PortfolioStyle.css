@@ -19,3 +19,59 @@
 .portfolio-item {
     width: 30%;
 }
+
+.portfolio-item a {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.portfolio-item h3 {
+    margin: 15px 0 0;
+}
+
+.portfolio-item svg {
+    margin-top: 5px;
+}
+
+.portfolio-item-screen {
+    display: block;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.portfolio-item-screen img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transform: translate(0, 0);
+    transition: 10s ease-out 0s;
+}
+
+.portfolio-item-screen img:hover {
+    transform: translate(0, calc(-100% + 300px));
+    transition: 15s ease-out 0s;
+}
+
+.stack-tech-portfolio {
+    margin: 20px 0 30px;
+}
+
+.stack-tech-portfolio ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.stack-tech-portfolio ul li {
+    padding: 5px 10px;
+    background-color: #9DC1FB;
+    border-radius: 7px;
+    color: #0F172A;
+}

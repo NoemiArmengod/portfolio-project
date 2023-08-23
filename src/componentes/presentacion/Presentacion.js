@@ -10,8 +10,8 @@ function Presentacion() {
                 <h2>Front-end developer</h2>
                 <p><a href="mailto:narmengod@gmail.com">narmengod@gmail.com</a></p>
                 <div className='iconos-rrss'>
-                    <a href="https://www.linkedin.com/in/noemiarmengod/"><FaLinkedin /></a>
-                    <a href="https://github.com/NoemiArmengod"><FaGithub /></a>
+                    <a href="https://www.linkedin.com/in/noemiarmengod/" target="_blank"><FaLinkedin /></a>
+                    <a href="https://github.com/NoemiArmengod" target="_blank"><FaGithub /></a>
                 </div>
             </div>
             <div className='presentacion-introduccion'>
