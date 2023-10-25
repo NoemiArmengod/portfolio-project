@@ -18,7 +18,7 @@ function Presentacion() {
                 <p>Mi carrera como desarrolladora web comenzó en 2007 en el departamento digital de una agencia de comunicación española.</p>
                 <p>Desde entonces, he colaborado con diversas agencias de marketing y diseño web participando en una gran variedad de proyectos digitales.</p>
                 <p>Mi basta experiencia profesional me ha brindado una visión integral de los proyectos web, abarcando todas las etapas del proceso, desde la concepción inicial hasta el mantenimiento y la mejora continua.</p>
-                <p>Mi ambito de especialización son las tecnologías front-end, aunque con el tiempo he ampliado mis habilidades hacia la experiencia de usuario y la gestión de proyectos.</p>
+                <p>Mi ámbito de especialización son las tecnologías front-end, aunque, con el tiempo, he ampliado mis habilidades hacia la experiencia de usuario y la gestión de proyectos.</p>
                 <p>Como profesional en un sector tan dinámico, me mantengo en constante evolución a través de la formación continua, siempre en busca de la optimización y la mejora en mi trabajo.</p>
                 <p className='parrafo-destacado'>Te invito a explorar mi portafolio, donde encontrarás algunos ejemplos de los proyectos en los que he tenido el privilegio de participar.</p>
             </div>
