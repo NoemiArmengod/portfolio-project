@@ -1,5 +1,6 @@
 import './PortfolioStyle.css';
 import { FiExternalLink } from "react-icons/fi";
+import sneakeracademy from '../../images/barcelonasneakersacademy.png';
 import inmedia from '../../images/inmedia.jpg';
 import magnificPlace from '../../images/maginificPlace.jpg';
 import acfae from '../../images/acfae.jpg';
@@ -17,6 +18,25 @@ function Portfolio() {
                 <h2>Portfolio</h2>
             </div>
             <div className='portfolio-grid'>
+                <div className='portfolio-item'>
+                    <div className='portfolio-item-screen'>
+                        <a target="_blank" href="https://barcelonasneakersacademy.com/" rel="nofollow">
+                            <img src={sneakeracademy} alt="Barcelona sneakers academy" />
+                        </a>
+                    </div>
+
+                    <h3><a target="_blank" href="https://barcelonasneakersacademy.com/" rel="nofollow"><span>Barcelonasneakersacademy.com</span> <span><FiExternalLink /></span></a></h3>
+                    <p>La primera academia de sneakers en España. Desarrollo y maquetación web del diseño entregado por el cliente.</p>
+                    <div className='stack-tech-portfolio'>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>WordPress</li>
+                            <li>Elementor</li>
+                        </ul>
+                    </div>
+                </div>
                 <div className='portfolio-item'>
                     <div className='portfolio-item-screen'>
                         <a target="_blank" href="https://inmedia.es/" rel="nofollow">
