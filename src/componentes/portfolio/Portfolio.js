@@ -15,7 +15,7 @@ function Portfolio() {
     return (
         <div className='portfolio-contenedor'>
             <div className='portfolio-titulo'>
-                <h2>Portfolio</h2>
+                <h3>Portfolio</h3>
             </div>
             <div className='portfolio-grid'>
                 <div className='portfolio-item'>
@@ -24,17 +24,20 @@ function Portfolio() {
                             <img src={sneakeracademy} alt="Barcelona sneakers academy" />
                         </a>
                     </div>
-
-                    <h3><a target="_blank" href="https://barcelonasneakersacademy.com/" rel="nofollow"><span>Barcelonasneakersacademy.com</span> <span><FiExternalLink /></span></a></h3>
-                    <p>La primera academia de sneakers en España. Desarrollo y maquetación web del diseño entregado por el cliente.</p>
-                    <div className='stack-tech-portfolio'>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>WordPress</li>
-                            <li>Elementor</li>
-                        </ul>
+                    <div className='portfolio-item-content'>
+                        <h4><a target="_blank" href="https://barcelonasneakersacademy.com/" rel="nofollow">
+                            Barcelonasneakersacademy.com <FiExternalLink />
+                        </a></h4>
+                        <p>La primera academia de sneakers en España. Desarrollo y maquetación web del diseño entregado por el cliente.</p>
+                        <div className='stack-tech-portfolio'>
+                            <ul>
+                                <li><div>HTML</div></li>
+                                <li><div>CSS</div></li>
+                                <li><div>JavaScript</div></li>
+                                <li><div>WordPress</div></li>
+                                <li><div>Elementor</div></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className='portfolio-item'>
@@ -43,18 +46,19 @@ function Portfolio() {
                             <img src={inmedia} alt="Inmedia Solutions" />
                         </a>
                     </div>
-
-                    <h3><a target="_blank" href="https://inmedia.es/" rel="nofollow"><span>Inmedia.es</span> <span><FiExternalLink /></span></a></h3>
-                    <p>Consultoria de comunicación especializada en Turismo. Desarrollé el sitio completo a partir de los esquemas y contenidos que entregó el cliente.</p>
-                    <div className='stack-tech-portfolio'>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Diseño</li>
-                            <li>WordPress</li>
-                            <li>Elementor</li>
-                        </ul>
+                    <div className='portfolio-item-content'>
+                        <h4><a target="_blank" href="https://inmedia.es/" rel="nofollow">Inmedia.es <FiExternalLink /></a></h4>
+                        <p>Consultoria de comunicación especializada en Turismo. Desarrollé el sitio completo a partir de los esquemas y contenidos que entregó el cliente.</p>
+                        <div className='stack-tech-portfolio'>
+                            <ul>
+                                <li><div>HTML</div></li>
+                                <li><div>CSS</div></li>
+                                <li><div>JavaScript</div></li>
+                                <li><div>Diseño</div></li>
+                                <li><div>WordPress</div></li>
+                                <li><div>Elementor</div></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className='portfolio-item'>
@@ -63,16 +67,17 @@ function Portfolio() {
                             <img src={agenciaSetting} alt="Agència Setting" />
                         </a>
                     </div>
-
-                    <h3><a target="_blank" href="https://agenciasetting.com/" rel="nofollow"><span>Agenciasetting.com</span> <span><FiExternalLink /></span></a></h3>
-                    <p>Agencia de comunicación. Diseño y desarrollo de la web a partir de los textos y los objetivos del cliente.</p>
-                    <div className='stack-tech-portfolio'>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Diseño</li>
-                            <li>WordPress</li>
-                        </ul>
+                    <div className='portfolio-item-content'>
+                        <h4><a target="_blank" href="https://agenciasetting.com/" rel="nofollow">Agenciasetting.com <FiExternalLink /></a></h4>
+                        <p>Agencia de comunicación. Diseño y desarrollo de la web a partir de los textos y los objetivos del cliente.</p>
+                        <div className='stack-tech-portfolio'>
+                            <ul>
+                                <li><div>HTML</div></li>
+                                <li><div>CSS</div></li>
+                                <li><div>Diseño</div></li>
+                                <li><div>WordPress</div></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className='portfolio-item'>
@@ -81,17 +86,18 @@ function Portfolio() {
                             <img src={acfae} alt="ACFAE" />
                         </a>
                     </div>
-
-                    <h3><a target="_blank" href="https://www.acfae.es/" rel="nofollow"><span>Acfae.es</span> <span><FiExternalLink /></span></a></h3>
-                    <p>Asociación de Comerciantes de Fuegos Artificiales de España. Diseño y desarrollo de una nueva web con el objetivo de modernizar su presencia online.</p>
-                    <div className='stack-tech-portfolio'>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Diseño</li>
-                            <li>WordPress</li>
-                            <li>Elementor</li>
-                        </ul>
+                    <div className='portfolio-item-content'>
+                        <h4><a target="_blank" href="https://www.acfae.es/" rel="nofollow">Acfae.es <FiExternalLink /></a></h4>
+                        <p>Asociación de Comerciantes de Fuegos Artificiales de España. Diseño y desarrollo de una nueva web con el objetivo de modernizar su presencia online.</p>
+                        <div className='stack-tech-portfolio'>
+                            <ul>
+                                <li><div>HTML</div></li>
+                                <li><div>CSS</div></li>
+                                <li><div>Diseño</div></li>
+                                <li><div>WordPress</div></li>
+                                <li><div>Elementor</div></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className='portfolio-item'>
@@ -100,17 +106,18 @@ function Portfolio() {
                             <img src={magnificPlace} alt="Magnific Place" />
                         </a>
                     </div>
-
-                    <h3><a target="_blank" href="https://magnificplace.com/" rel="nofollow"><span>Magnificplace.com</span> <span><FiExternalLink /></span></a></h3>
-                    <p>Plataforma de promoción de áreas comerciales. El cliente quería mostrar su propuesta de una forma clara y sencilla. Creé esta web onepage a partir de los textos e imágenes entregados.</p>
-                    <div className='stack-tech-portfolio'>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Diseño</li>
-                            <li>WordPress</li>
-                            <li>Elementor</li>
-                        </ul>
+                    <div className='portfolio-item-content'>
+                        <h4><a target="_blank" href="https://magnificplace.com/" rel="nofollow">Magnificplace.com <FiExternalLink /></a></h4>
+                        <p>Plataforma de promoción de áreas comerciales. El cliente quería mostrar su propuesta de una forma clara y sencilla. Creé esta web onepage a partir de los textos e imágenes entregados.</p>
+                        <div className='stack-tech-portfolio'>
+                            <ul>
+                                <li><div>HTML</div></li>
+                                <li><div>CSS</div></li>
+                                <li><div>Diseño</div></li>
+                                <li><div>WordPress</div></li>
+                                <li><div>Elementor</div></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
@@ -120,16 +127,17 @@ function Portfolio() {
                             <img src={centralParc} alt="Central Parc" />
                         </a>
                     </div>
-
-                    <h3><a target="_blank" href="https://centralparc.cat/" rel="nofollow"><span>Centralparc.cat</span> <span><FiExternalLink /></span></a></h3>
-                    <p>Cooperativa agraria. Diseño y desarrollo web a partir de los objetivos del cliente.</p>
-                    <div className='stack-tech-portfolio'>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Diseño</li>
-                            <li>WordPress</li>
-                        </ul>
+                    <div className='portfolio-item-content'>
+                        <h4><a target="_blank" href="https://centralparc.cat/" rel="nofollow">Centralparc.cat <FiExternalLink /></a></h4>
+                        <p>Cooperativa agraria. Diseño y desarrollo web a partir de los objetivos del cliente.</p>
+                        <div className='stack-tech-portfolio'>
+                            <ul>
+                                <li><div>HTML</div></li>
+                                <li><div>CSS</div></li>
+                                <li><div>Diseño</div></li>
+                                <li><div>WordPress</div></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className='portfolio-item'>
@@ -138,16 +146,17 @@ function Portfolio() {
                             <img src={managersLab} alt="Managers Lab" />
                         </a>
                     </div>
-
-                    <h3><a target="_blank" href="https://managerslab.com/" rel="nofollow"><span>Managerslab.com</span> <span><FiExternalLink /></span></a></h3>
-                    <p>Servicios de transformación digital para empresas. Diseño y desarrollo de la web a partir de los textos y los objetivos del cliente.</p>
-                    <div className='stack-tech-portfolio'>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Diseño</li>
-                            <li>WordPress</li>
-                        </ul>
+                    <div className='portfolio-item-content'>
+                        <h4><a target="_blank" href="https://managerslab.com/" rel="nofollow">Managerslab.com <FiExternalLink /></a></h4>
+                        <p>Servicios de transformación digital para empresas. Diseño y desarrollo de la web a partir de los textos y los objetivos del cliente.</p>
+                        <div className='stack-tech-portfolio'>
+                            <ul>
+                                <li><div>HTML</div></li>
+                                <li><div>CSS</div></li>
+                                <li><div>Diseño</div></li>
+                                <li><div>WordPress</div></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className='portfolio-item'>
@@ -156,48 +165,51 @@ function Portfolio() {
                             <img src={tecnicasFerreres} alt="Tecnicas Ferreres" />
                         </a>
                     </div>
-
-                    <h3><a target="_blank" href="https://tecnicasferreres.es/" rel="nofollow"><span>Tecnicasferreres.es</span> <span><FiExternalLink /></span></a></h3>
-                    <p>Empresa distribuidora de productos industriales. Desarrollo de la web a partir del diseño entregado por el cliente.</p>
-                    <div className='stack-tech-portfolio'>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>WordPress</li>
-                            <li>Elementor</li>
-                        </ul>
+                    <div className='portfolio-item-content'>
+                        <h4><a target="_blank" href="https://tecnicasferreres.es/" rel="nofollow">Tecnicasferreres.es <FiExternalLink /></a></h4>
+                        <p>Empresa distribuidora de productos industriales. Desarrollo de la web a partir del diseño entregado por el cliente.</p>
+                        <div className='stack-tech-portfolio'>
+                            <ul>
+                                <li><div>HTML</div></li>
+                                <li><div>CSS</div></li>
+                                <li><div>WordPress</div></li>
+                                <li><div>Elementor</div></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className='portfolio-item'>
                     <div className='portfolio-item-screen'>
                         <img src={ecoSerra} alt="Eco-Serra" />
                     </div>
-
-                    <h3>EcoSerra</h3>
-                    <p>Proyecto en desarrollo</p>
-                    <div className='stack-tech-portfolio'>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Diseño</li>
-                        </ul>
+                    <div className='portfolio-item-content'>
+                        <h4>EcoSerra</h4>
+                        <p>Proyecto en desarrollo</p>
+                        <div className='stack-tech-portfolio'>
+                            <ul>
+                                <li><div>HTML</div></li>
+                                <li><div>CSS</div></li>
+                                <li><div>Diseño</div></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className='portfolio-item'>
                     <div className='portfolio-item-screen'>
                         <img src={museuCinema} alt="Museu del Cinema" />
                     </div>
-
-                    <h3>Museu del cinema</h3>
-                    <p>Proyecto en desarrollo</p>
-                    <div className='stack-tech-portfolio'>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Diseño</li>
-                            <li>WordPress</li>
-                            <li>Elementor</li>
-                        </ul>
+                    <div className='portfolio-item-content'>
+                        <h4>Museu del cinema</h4>
+                        <p>Proyecto en desarrollo</p>
+                        <div className='stack-tech-portfolio'>
+                            <ul>
+                                <li><div>HTML</div></li>
+                                <li><div>CSS</div></li>
+                                <li><div>Diseño</div></li>
+                                <li><div>WordPress</div></li>
+                                <li><div>Elementor</div></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@
 }
 
 .presentacion-datos-personales {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .presentacion-datos-personales a {
@@ -25,11 +25,29 @@
     font-size: 25px;
 }
 
+.presentacion-introduccion {
+    padding: 0.05em 0;
+    background: rgb(142, 68, 173);
+    background: linear-gradient(118deg, rgba(142, 68, 173, 1) 30%, rgba(192, 57, 43, 1) 80%);
+}
+
+.presentacion-introduccion div {
+    padding: 25px 0;
+    background-color: #fefaff;
+}
+
+
 .presentacion-introduccion p {
     margin-bottom: 20px;
 }
 
-.parrafo-destacado {
+p.parrafo-destacado {
     font-weight: 700;
-    color: #9DC1FB;
+    color: #8E44AD;
+    background-image: -webkit-linear-gradient(315deg, #8E44AD 7%, #C0392B 81%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
 }

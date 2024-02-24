@@ -3,8 +3,8 @@
 }
 
 .portfolio-titulo {
-    width: 800px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto 40px;
 }
 
@@ -13,21 +13,41 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 .portfolio-item {
-    width: 30%;
+    width: 100%;
+    background-color: rgba(142, 68, 173, 0.1);
+    position: relative;
+    transform: translate(0);
+    transform-style: preserve-3d;
 }
 
-.portfolio-item a {
-    display: flex;
-    gap: 10px;
-    text-decoration: none;
+.portfolio-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translate3d(0, 0, -1px);
+    background: rgb(142, 68, 173);
+    background: linear-gradient(118deg, rgba(142, 68, 173, 1) 30%, rgba(192, 57, 43, 1) 80%);
+    filter: blur(10px);
+    clip-path: polygon(-100vmax -100vmax, 100vmax -100vmax, 100vmax 100vmax, -100vmax 100vmax, -100vmax -100vmax, 0 0, 0 100%, 100% 100%, 100% 0, 0 0);
+    transition: all 1s;
+    opacity: 0.5;
 }
 
-.portfolio-item h3 {
-    margin: 15px 0 0;
+.portfolio-item:hover::before {
+    opacity: 1;
+}
+
+.portfolio-item-content {
+    padding: 30px;
+}
+
+.portfolio-item h4 {
+    margin-bottom: 15px;
+    word-break: break-all;
 }
 
 .portfolio-item svg {
@@ -53,13 +73,13 @@
     transition: 10s ease-out 0s;
 }
 
-.portfolio-item-screen img:hover {
+.portfolio-item:hover .portfolio-item-screen img {
     transform: translate(0, calc(-100% + 300px));
     transition: 15s ease-out 0s;
 }
 
 .stack-tech-portfolio {
-    margin: 20px 0 30px;
+    margin-top: 20px;
 }
 
 .stack-tech-portfolio ul {
@@ -70,8 +90,30 @@
 }
 
 .stack-tech-portfolio ul li {
-    padding: 5px 10px;
-    background-color: #9DC1FB;
+    padding: 2px;
+    background: rgb(142, 68, 173);
+    background: linear-gradient(118deg, rgba(142, 68, 173, 1) 30%, rgba(192, 57, 43, 1) 80%);
     border-radius: 7px;
-    color: #0F172A;
+    line-height: 1;
+}
+
+.stack-tech-portfolio ul li div {
+    background-color: #F2E8F7;
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    .portfolio-item {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .portfolio-item {
+        width: 30%;
+    }
 }
